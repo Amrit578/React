@@ -1,8 +1,5 @@
-// const heading = React.createElement("h1", { id: "heading" }, "Hello world from react!");
-// console.log(heading) // object
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(heading);
-
+import React from "react"
+import ReactDOM from "react-dom/client"
 
 // Nested structured 
 const parent = React.createElement(
@@ -11,8 +8,8 @@ const parent = React.createElement(
      [React.createElement(
           "div",
           { id: "child1" }, [
-          React.createElement("h1", { id: "heading1" }, "Hello I am h1 tag..."),
-          React.createElement("h2", { id: "heading2" }, "Hello I am h2 tag...")
+          React.createElement("h1", { id: "heading1" }, "This is Namaste React 🚀"),
+          React.createElement("h2", { id: "heading2" }, "by Amrit Singh")
      ]
      ), React.createElement(
           "div",
